@@ -17,7 +17,7 @@ class testUser(unittest.TestCase):
     def save_user(self):
 
 
-        self.new_user.save_user()
+        self.new_user.save_user(self)
         self.assertEqual(len(User.user_list),1)
 
 
