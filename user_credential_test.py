@@ -47,7 +47,19 @@ class TestContact(unittest.TestCase):
 
         self.assertEqual(find_user.password,test_user.password)
 
+    def test_user_exist(self):
+
+        self.new_user.save_user()
+        test_user = User("osman","mohamed","P@#97")
+        test_user.save_user()
+
+        user_exists = User.user_exist("osman")
+
+        self.assertTrue(user_exists)
+
     
+
+
 
 
 
