@@ -38,6 +38,9 @@ class User:
                 return True
 
 
-    
+    @classmethod
+    def display_user(cls,):
+
+        return cls.user_list
 
         
