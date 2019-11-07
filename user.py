@@ -39,7 +39,7 @@ class User:
 
 
     @classmethod
-    def display_user(cls,):
+    def display_users(cls,):
 
         return cls.user_list
 
