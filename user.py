@@ -20,4 +20,14 @@ class User:
 
         User.user_list.remove(self)
 
-    
+    @classmethod
+    def find_user_by_first_name(cls,first_name):
+
+        for user in cls.user_list:
+            if user.first_name == first_name:
+                    return user
+
+
+
+
+        
