@@ -57,7 +57,10 @@ class TestContact(unittest.TestCase):
 
         self.assertTrue(user_exists)
 
-    
+    def test_display_user(self):
+
+
+        self.assertEqual(User.display_users(),User.user_list)
 
 
 
