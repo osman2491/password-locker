@@ -42,7 +42,17 @@ class TestCredential(unittest.TestCase):
 
         self.assertTrue(found_app,test_credential.app)  
 
-    
+    def test_app_exist(self):
+
+        self.new_credentail.save_app()
+        test_credential = Credential("facebook","PY232")
+        test_credential.save_app()
+
+        apps_exist = Credential.find_app("facebook")
+
+        self.assertTrue(apps_exist)
+
+        
 
 if __name__ == "__main__":
     unittest.main()
