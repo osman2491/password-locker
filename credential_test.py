@@ -52,6 +52,10 @@ class TestCredential(unittest.TestCase):
 
         self.assertTrue(apps_exist)
 
+    def test_display_app(self):
+
+        self.assertEqual(Credential.display_app,Credential.app_details)
+
         
 
 if __name__ == "__main__":
