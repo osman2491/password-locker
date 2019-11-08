@@ -26,6 +26,7 @@ class Credential:
             if Credential.app == app:
 
                 return True
+        
 
     @classmethod
     def app_exists(cls,app):
