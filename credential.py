@@ -4,10 +4,10 @@ class Credential:
 
     app_details = []
 
-    def __init__(self,app,app_password):
+    def __init__(self,app,password):
 
         self.app = app
-        self.app_password = app_password
+        self.password = password
 
     def save_app(self):
 
@@ -49,4 +49,3 @@ class Credential:
     def display_app(cls,app):
 
         return cls.app_details
-             
