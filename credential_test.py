@@ -12,7 +12,11 @@ class TestCredential(unittest.TestCase):
         self.assertEqual(self.new_credentail.app,"facebook")
         self.assertEqual(self.new_credentail.password,"PY232")
 
-    
+    def test_save_app(self):
+
+        self.new_credentail.save_app()
+
+        self.assertEqual(len(Credential.app_details),1)
 
     
 
