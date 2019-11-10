@@ -1,21 +1,21 @@
-#Password-locker
+# Password-locker
 
-##Project overveiw
+## Project overveiw
 
 It becomes really hard to remember all those passwords and create new ones for all apps we use. This app helps a user save and generate passwords.
 
-#Author
+## Author
 
 Osman Mohamed Ali
 
-###Author details
+### Author details
 
 Email: osman67239121@gmail.com
-#Description
+# Description
 
 This project lets a user save login credentials for any application. Once they create a username and password they can add an app and the program saves the credentials. One has the choice to either input their own password or opt for a system generated one. A user can also delete an existing entry.
 
-#User story
+# User story
 
 The user would like to..
 
@@ -27,11 +27,12 @@ view my various account credentials and their passwords in the application.
 Delete a credentials account that I no longer need in the application.
 #Set-up and installation instructions
 
-##You need to have the following installed
+## You need to have the following installed
 
 Python3.6
 Pip
-##cloning
+
+## cloning
 
 open terminal {Ctrl+Alt+T}
 
@@ -41,22 +42,24 @@ cd password-locker
 
 code . (base on ur text editor)
 
-##Running the Application
+## Running the Application
 
 To run the application , open the cloned file and run the following commands
 
 $ chmod +x run.py $ ./run.py
 
-##Known bugs
+## Known bugs
 
 currently the app does not display saved credentials
 
-##Technology used
+## Technology used
 
 python3
 
-#Development
+# Development
 
-Do you wish to contribute to this App, Fork the repo Create a new branch Navigate to the branch Make appropriate changes to the files Add changes to reflect changes made. Commit your changes Push to the chosen git branch Create a pull request Request is reviewed and published once approved
+Do you wish to contribute to this App, 
+
+Fork the repo Create a new branch Navigate to the branch Make appropriate changes to the files Add changes to reflect changes made. Commit your changes Push to the chosen git branch Create a pull request Request is reviewed and published once approved
 
 #license
