@@ -4,10 +4,10 @@ class Credential:
 
     app_details = []
 
-    def __init__(self,app,password):
+    def __init__(self,app,app_password):
 
         self.app = app
-        self.password = password
+        self.password = app_password
 
     def save_app(self):
 
@@ -15,7 +15,7 @@ class Credential:
 
     def delete_app(self):
 
-        self.app_details.remove(self)
+        self.app_details.remove()
 
     @classmethod
     def find_app(cls,app):
@@ -47,6 +47,6 @@ class Credential:
         return gen_password
 
     @classmethod
-    def display_app(cls,app):
+    def display_app(cls):
 
         return cls.app_details
