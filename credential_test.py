@@ -9,12 +9,12 @@ class TestCredential(unittest.TestCase):
 
     def setUp(self):
 
-        self.new_credentail = Credential("facebook","PY232")
+        self.new_credentail = Credential("app","password")
 
     def test__init__(self):
 
-        self.assertEqual(self.new_credentail.app,"facebook")
-        self.assertEqual(self.new_credentail.password,"PY232")
+        self.assertEqual(self.new_credentail.app,"app")
+        self.assertEqual(self.new_credentail.password,"password")
 
     def test_save_app(self):
 
