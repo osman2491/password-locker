@@ -33,7 +33,7 @@ Python3.6
 
 Pip
 
-## cloning
+## Cloning
 
 open terminal {Ctrl+Alt+T}
 
@@ -51,7 +51,7 @@ $ chmod +x run.py $ ./run.py
 
 ## Known bugs
 
-currently the app does not display saved credentials
+Currently the app does not delete saved credentials
 
 ## Technology used
 
@@ -61,7 +61,15 @@ python3
 
 Do you wish to contribute to this App, 
 
-Fork the repo Create a new branch Navigate to the branch Make appropriate changes to the files Add changes to reflect changes made. Commit your changes Push to the chosen git branch Create a pull request Request is reviewed and published once approved
+Fork the repo
+Create a new branch
+Navigate to the branch
+Make appropriate changes to the files
+Add changes to reflect changes made.
+Commit your changes
+Push to the chosen git branch
+Create a pull request
+Request is reviewed and published once approved
 
 # license
 
